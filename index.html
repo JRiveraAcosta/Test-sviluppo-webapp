@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Test di Sviluppo</title>
+</head>
+<body>
+<header>
+    <h1>WEB APP TEST</h1>
+</header>
+<section>
+    <h2>
+        Lista Ordini
+    </h2>
+    <article>
+        <header>
+            <label for="ordersSort">Scegli l'ordinamento:</label>
+            <select name="ordersSort" id="ordersSort">
+                <option value="desc">newest first</option>
+                <option value="asc">oldest first</option>
+            </select>
+        </header>
+        <div>
+            <ul id="ordersList">
+            </ul>
+        </div>
+    </article>
+
+</section>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="controllers/ctrlOrders.js"></script>
+
+</body>
+</html>
